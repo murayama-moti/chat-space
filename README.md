@@ -1,7 +1,6 @@
 ## messagesテーブル
 |Column|Type|Options|
 |------|----|-------|
-|image|string|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
 
@@ -12,6 +11,7 @@
 
 ## usersテーブル
 |Column|Type|Options|
+|------|----|-------|
 |name|string|null: false, add_index: true|
 |email|string|null: false, unique: true|
 
@@ -23,6 +23,7 @@
 
 ## groupsテーブル
 |Column|Type|Options|
+|------|----|-------|
 |group_name|string|null: false, unique: true|
 
 ### Association
@@ -33,6 +34,7 @@
 
 ## groups_usersテーブル
 |Column|Type|Options|
+|------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
 
