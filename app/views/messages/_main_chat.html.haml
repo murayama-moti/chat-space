@@ -6,8 +6,9 @@
       %ul.main-header__left-box__member-list
         Member : 
         %li.main-header__left-box__member-list__member おもち
-    %a{:href => "#"}
-      .main-header__edit-btn Edit
+    %a
+      = link_to "#" do
+        .main-header__edit-btn Edit
   .messages
     .message
       .message__upper-info
