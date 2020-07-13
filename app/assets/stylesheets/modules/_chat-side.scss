@@ -24,7 +24,6 @@
           }
         }
       }
-      
     }
   }
   .groups {
@@ -34,18 +33,17 @@
     a {
       text-decoration: none;
     }
-      .group {
-        color: white;
-        margin-bottom: 40px;
-          .group__group-name {
-            font-size: 15px;
-            margin-bottom: 5px;
-          }
-          .group__group-massage {
-            font-size: 11px;
-          }
+    .group {
+      color: white;
+      margin-bottom: 40px;
+      .group__group-name {
+        font-size: 15px;
+        margin-bottom: 5px;
       }
-    
+      .group__group-massage {
+        font-size: 11px;
+      }
+    }
   }
 }
 
